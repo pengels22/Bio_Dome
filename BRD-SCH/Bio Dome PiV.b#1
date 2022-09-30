@@ -1087,6 +1087,46 @@ Copyright: Würth Elektronik</description>
 </polygon>
 <circle x="-14.08" y="-1.5" radius="0.1" width="0.4" layer="21"/>
 </package>
+<package name="691213510003" urn="urn:adsk.eagle:footprint:16248140/1" library_version="2">
+<description>&lt;b&gt;WR-TBL Serie 2135 - 5.08 mm Horizontal Entry Modular w. Rising Cage Clamp
+&lt;br&gt;&lt;/b&gt;Max Height =10mm , Pitch 5.08mm , 3 Pins</description>
+<pad name="1" x="-5.08" y="0" drill="1.3"/>
+<pad name="2" x="0" y="0" drill="1.3"/>
+<pad name="3" x="5.08" y="0" drill="1.3"/>
+<wire x1="-7.62" y1="-4.05" x2="7.62" y2="-4.05" width="0.1" layer="51"/>
+<wire x1="-7.62" y1="4.05" x2="7.62" y2="4.05" width="0.1" layer="51"/>
+<wire x1="-7.62" y1="4.05" x2="-7.62" y2="1.9" width="0.1" layer="51"/>
+<wire x1="-7.62" y1="1.39" x2="-7.62" y2="-4.05" width="0.1" layer="51"/>
+<wire x1="7.62" y1="4.05" x2="7.62" y2="-2.94" width="0.1" layer="51"/>
+<wire x1="7.62" y1="-3.45" x2="7.62" y2="-4.05" width="0.1" layer="51"/>
+<wire x1="-8.22" y1="2.16" x2="-8.22" y2="1.13" width="0.1" layer="51"/>
+<wire x1="8.22" y1="-2.68" x2="8.22" y2="-3.71" width="0.1" layer="51"/>
+<wire x1="-7.62" y1="1.9" x2="-8.22" y2="2.16" width="0.1" layer="51"/>
+<wire x1="-8.22" y1="1.13" x2="-7.62" y2="1.39" width="0.1" layer="51"/>
+<wire x1="7.62" y1="-2.94" x2="8.22" y2="-2.68" width="0.1" layer="51"/>
+<wire x1="7.62" y1="-3.45" x2="8.22" y2="-3.71" width="0.1" layer="51"/>
+<wire x1="-7.72" y1="4.15" x2="7.72" y2="4.15" width="0.2" layer="21"/>
+<wire x1="7.72" y1="4.15" x2="7.72" y2="-2.84" width="0.2" layer="21"/>
+<wire x1="7.72" y1="-2.84" x2="8.32" y2="-2.56" width="0.2" layer="21"/>
+<wire x1="8.32" y1="-2.56" x2="8.32" y2="-3.81" width="0.2" layer="21"/>
+<wire x1="8.32" y1="-3.81" x2="7.72" y2="-3.55" width="0.2" layer="21"/>
+<wire x1="7.72" y1="-3.55" x2="7.72" y2="-4.15" width="0.2" layer="21"/>
+<wire x1="7.72" y1="-4.15" x2="-7.72" y2="-4.15" width="0.2" layer="21"/>
+<wire x1="-7.72" y1="-4.15" x2="-7.72" y2="1.29" width="0.2" layer="21"/>
+<wire x1="-7.72" y1="1.29" x2="-8.32" y2="1.03" width="0.2" layer="21"/>
+<wire x1="-8.32" y1="1.03" x2="-8.32" y2="2.26" width="0.2" layer="21"/>
+<wire x1="-8.32" y1="2.26" x2="-7.72" y2="2" width="0.2" layer="21"/>
+<wire x1="-7.72" y1="2" x2="-7.72" y2="4.15" width="0.2" layer="21"/>
+<text x="0" y="5" size="1.27" layer="25" align="bottom-center">&gt;NAME</text>
+<text x="-3.5" y="-6" size="1.27" layer="27">&gt;VALUE</text>
+<polygon width="0.1" layer="39">
+<vertex x="-8.54" y="4.35"/>
+<vertex x="8.54" y="4.35"/>
+<vertex x="8.54" y="-4.35"/>
+<vertex x="-8.54" y="-4.35"/>
+</polygon>
+<circle x="-6.24" y="1.7" radius="0.1" width="0.4" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="691241500004" urn="urn:adsk.eagle:package:16248609/2" type="model" library_version="2">
@@ -1101,6 +1141,13 @@ Copyright: Würth Elektronik</description>
 &lt;br&gt;&lt;/b&gt;Max Height =8.1mm , Pitch 5.08mm , 6 Pins</description>
 <packageinstances>
 <packageinstance name="691241500006"/>
+</packageinstances>
+</package3d>
+<package3d name="691213510003" urn="urn:adsk.eagle:package:16248576/2" type="model" library_version="2">
+<description>&lt;b&gt;WR-TBL Serie 2135 - 5.08 mm Horizontal Entry Modular w. Rising Cage Clamp
+&lt;br&gt;&lt;/b&gt;Max Height =10mm , Pitch 5.08mm , 3 Pins</description>
+<packageinstances>
+<packageinstance name="691213510003"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -2256,6 +2303,48 @@ Datasheet (B3F-1000)</description>
 </package3d>
 </packages3d>
 </library>
+<library name="SparkFun-Resistors" urn="urn:adsk.eagle:library:532">
+<description>&lt;h3&gt;SparkFun Resistors&lt;/h3&gt;
+This library contains resistors. Reference designator:R. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="AXIAL-0.3" urn="urn:adsk.eagle:footprint:39622/1" library_version="1">
+<description>&lt;h3&gt;AXIAL-0.3&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;/p&gt;</description>
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-3.81" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="P$2" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
+<text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
+</package>
+</packages>
+<packages3d>
+<package3d name="AXIAL-0.3" urn="urn:adsk.eagle:package:39658/1" type="box" library_version="1">
+<description>AXIAL-0.3
+Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.</description>
+<packageinstances>
+<packageinstance name="AXIAL-0.3"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3324,6 +3413,29 @@ design rules under a new name.
 <attribute name="BOM" value="EXCLUDE" x="82.4484" y="7.7978" size="1.778" layer="27" display="off"/>
 <attribute name="LABEL" value="" x="82.4484" y="7.7978" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="84.3534" y="7.7978" size="1.016" layer="25" ratio="18"/>
+</element>
+<element name="RS485" library="Wurth_Connectors_WR-TBL Rising Cage Clamp" library_urn="urn:adsk.eagle:library:16280519" package="691213510003" package3d_urn="urn:adsk.eagle:package:16248576/2" value="" x="169.7736" y="-7.4041" smashed="yes">
+<attribute name="IR-UL" value="14A" x="169.7736" y="-7.4041" size="1.778" layer="27" display="off"/>
+<attribute name="IR-VDE" value="14A" x="169.7736" y="-7.4041" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="169.7736" y="-2.4041" size="1.27" layer="25" align="bottom-center"/>
+<attribute name="PART-NUMBER" value=" 691213510003 " x="169.7736" y="-7.4041" size="1.778" layer="27" display="off"/>
+<attribute name="PINS" value=" 3 " x="169.7736" y="-7.4041" size="1.778" layer="27" display="off"/>
+<attribute name="PITCH" value="5.08mm" x="169.7736" y="-7.4041" size="1.778" layer="27" display="off"/>
+<attribute name="TYPE" value="Horizontal" x="169.7736" y="-7.4041" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="166.2736" y="-13.4041" size="1.27" layer="27"/>
+<attribute name="WIRE" value="14 to 30 (AWG) 2.08 to 0.0509 (mm²)" x="169.7736" y="-7.4041" size="1.778" layer="27" display="off"/>
+<attribute name="WORKING-VOLTAGE-UL" value="300V (AC)" x="169.7736" y="-7.4041" size="1.778" layer="27" display="off"/>
+<attribute name="WORKING-VOLTAGE-VDE" value="250V (AC)" x="169.7736" y="-7.4041" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="523" x="31.4325" y="-2.4638" smashed="yes">
+<attribute name="NAME" x="31.4325" y="-1.4478" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
+<attribute name="PROD_ID" value=" " x="31.4325" y="-2.4638" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="31.4325" y="-3.4798" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+</element>
+<element name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="523" x="1.3081" y="4.8006" smashed="yes" rot="R270">
+<attribute name="NAME" x="2.3241" y="4.8006" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value=" " x="1.3081" y="4.8006" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="0.2921" y="4.8006" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 </elements>
 <signals>
@@ -5605,10 +5717,19 @@ design rules under a new name.
 </signal>
 <signal name="GND">
 <contactref element="PI-CON-1" pad="6"/>
-<contactref element="PI-CON-1" pad="30"/>
-<contactref element="PI-CON-1" pad="9"/>
-<wire x1="12.3190625" y1="33.51191875" x2="14.8590625" y2="38.59191875" width="0" layer="19" extent="1-1"/>
-<wire x1="14.8590625" y1="8.11191875" x2="12.3190625" y2="33.51191875" width="0" layer="19" extent="1-1"/>
+<wire x1="14.859" y1="8.9916" x2="14.859" y2="8.1534" width="0.1524" layer="1"/>
+<wire x1="13.5636" y1="10.287" x2="14.859" y2="8.9916" width="0.1524" layer="1"/>
+<wire x1="13.5636" y1="11.1252" x2="13.5636" y2="10.287" width="0.1524" layer="1"/>
+<wire x1="12.7254" y1="11.9634" x2="13.5636" y2="11.1252" width="0.1524" layer="1"/>
+<wire x1="11.8872" y1="11.9634" x2="12.7254" y2="11.9634" width="0.1524" layer="1"/>
+<wire x1="11.1252" y1="12.7254" x2="11.8872" y2="11.9634" width="0.1524" layer="1"/>
+<wire x1="11.1252" y1="33.9852" x2="11.1252" y2="12.7254" width="0.1524" layer="1"/>
+<wire x1="11.9634" y1="34.8234" x2="11.1252" y2="33.9852" width="0.1524" layer="1"/>
+<wire x1="12.8016" y1="34.8234" x2="11.9634" y2="34.8234" width="0.1524" layer="1"/>
+<wire x1="13.6398" y1="35.6616" x2="12.8016" y2="34.8234" width="0.1524" layer="1"/>
+<wire x1="13.6398" y1="37.338" x2="13.6398" y2="35.6616" width="0.1524" layer="1"/>
+<wire x1="14.859" y1="38.5572" x2="13.6398" y2="37.338" width="0.1524" layer="1"/>
+<wire x1="14.859" y1="38.5572" x2="14.8590625" y2="38.59191875" width="0.1524" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="R1" pad="1"/>
@@ -5766,7 +5887,9 @@ design rules under a new name.
 <via x="69.9516" y="19.812" extent="1-16" drill="0.35"/>
 <via x="93.4974" y="25.0698" extent="1-16" drill="0.35"/>
 <via x="116.4336" y="25.0698" extent="1-16" drill="0.35"/>
+<contactref element="R2" pad="P$1"/>
 <wire x1="24.0538" y1="-7.6454" x2="24.0538" y2="-6.0325" width="0.1524" layer="16"/>
+<wire x1="24.0538" y1="-6.0325" x2="27.6225" y2="-2.4638" width="0.1524" layer="16"/>
 </signal>
 <signal name="N$14">
 <contactref element="F-GASSES" pad="3"/>
@@ -6127,10 +6250,7 @@ design rules under a new name.
 <via x="152.1714" y="7.5438" extent="1-16" drill="0.35"/>
 <via x="116.586" y="14.2494" extent="1-16" drill="0.35"/>
 <via x="20.8026" y="40.4622" extent="1-16" drill="0.35"/>
-<wire x1="145.9076" y1="-5.3475" x2="146.8476" y2="-5.3475" width="0.254" layer="16"/>
-<wire x1="146.8476" y1="-5.3475" x2="147.8919" y2="-6.3918" width="0.254" layer="16"/>
-<wire x1="147.8919" y1="-6.3918" x2="147.9276" y2="-6.3918" width="0.254" layer="16"/>
-<wire x1="147.9276" y1="-6.3918" x2="147.9276" y2="-6.4275" width="0" layer="19" extent="16-16"/>
+<wire x1="145.9076" y1="-5.3475" x2="147.9276" y2="-6.4275" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$94">
 <contactref element="ADC1" pad="10"/>
@@ -6580,10 +6700,10 @@ design rules under a new name.
 <wire x1="175.5648" y1="68.4276" x2="170.4594" y2="73.533" width="0.1524" layer="16"/>
 <wire x1="175.5648" y1="10.8966" x2="175.5648" y2="68.4276" width="0.1524" layer="16"/>
 <wire x1="159.1056" y1="-5.5626" x2="175.5648" y2="10.8966" width="0.1524" layer="16"/>
-<wire x1="149.5933" y1="-5.5626" x2="159.1056" y2="-5.5626" width="0.1524" layer="16"/>
-<wire x1="148.5646" y1="-7.6454" x2="149.5933" y2="-5.5626" width="0.1524" layer="16"/>
-<wire x1="144.8816" y1="-7.6454" x2="148.5646" y2="-7.6454" width="0.1524" layer="16"/>
-<wire x1="142.875" y1="-5.6388" x2="144.8816" y2="-7.6454" width="0.1524" layer="16"/>
+<wire x1="146.9898" y1="-5.5626" x2="159.1056" y2="-5.5626" width="0.1524" layer="16"/>
+<wire x1="146.304" y1="-6.2484" x2="146.9898" y2="-5.5626" width="0.1524" layer="16"/>
+<wire x1="143.4846" y1="-6.2484" x2="146.304" y2="-6.2484" width="0.1524" layer="16"/>
+<wire x1="142.875" y1="-5.6388" x2="143.4846" y2="-6.2484" width="0.1524" layer="16"/>
 <wire x1="142.875" y1="-4.2672" x2="142.875" y2="-5.6388" width="0.1524" layer="16"/>
 <wire x1="162.2298" y1="97.6884" x2="162.2171" y2="97.7392" width="0.1524" layer="1"/>
 <wire x1="142.875" y1="-4.2672" x2="142.8476" y2="-4.2475" width="0.1524" layer="16"/>
@@ -6637,10 +6757,7 @@ design rules under a new name.
 <wire x1="14.9352" y1="31.0134" x2="15.0876" y2="31.0134" width="0.1524" layer="16"/>
 <wire x1="150.2664" y1="-6.4008" x2="150.2176" y2="-6.4275" width="0.1524" layer="16"/>
 <wire x1="14.9352" y1="31.0134" x2="14.8590625" y2="30.97191875" width="0.1524" layer="16"/>
-<wire x1="128.3355" y1="-6.5291" x2="130.4551" y2="-8.6487" width="0.254" layer="16"/>
-<wire x1="130.4551" y1="-8.6487" x2="149.8981" y2="-8.6487" width="0.254" layer="16"/>
-<wire x1="149.8981" y1="-8.6487" x2="150.2176" y2="-8.3292" width="0.254" layer="16"/>
-<wire x1="150.2176" y1="-8.3292" x2="150.2176" y2="-6.4275" width="0.254" layer="16"/>
+<wire x1="150.2176" y1="-6.4275" x2="128.3355" y2="-6.5291" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="GND1" class="1">
 <contactref element="PI-CON-2" pad="6"/>
@@ -6968,6 +7085,111 @@ design rules under a new name.
 <signal name="N$39">
 <contactref element="PI-CON-1" pad="17"/>
 </signal>
+<signal name="N$42">
+<contactref element="RS485" pad="3"/>
+<contactref element="PI-CON-1" pad="9"/>
+<wire x1="12.3444" y1="32.6136" x2="12.3444" y2="33.4518" width="0.1524" layer="1"/>
+<wire x1="13.6398" y1="31.3182" x2="12.3444" y2="32.6136" width="0.1524" layer="1"/>
+<wire x1="13.6398" y1="25.4508" x2="13.6398" y2="31.3182" width="0.1524" layer="1"/>
+<wire x1="14.5542" y1="24.5364" x2="13.6398" y2="25.4508" width="0.1524" layer="1"/>
+<wire x1="15.3924" y1="24.5364" x2="14.5542" y2="24.5364" width="0.1524" layer="1"/>
+<wire x1="22.3266" y1="17.6022" x2="15.3924" y2="24.5364" width="0.1524" layer="1"/>
+<wire x1="22.3266" y1="14.9352" x2="22.3266" y2="17.6022" width="0.1524" layer="16"/>
+<wire x1="41.2242" y1="-3.9624" x2="22.3266" y2="14.9352" width="0.1524" layer="16"/>
+<wire x1="50.3682" y1="-3.9624" x2="41.2242" y2="-3.9624" width="0.1524" layer="16"/>
+<wire x1="51.2826" y1="-4.8768" x2="50.3682" y2="-3.9624" width="0.1524" layer="16"/>
+<wire x1="58.9788" y1="-4.8768" x2="51.2826" y2="-4.8768" width="0.1524" layer="16"/>
+<wire x1="60.1218" y1="-6.0198" x2="58.9788" y2="-4.8768" width="0.1524" layer="16"/>
+<wire x1="108.204" y1="-6.0198" x2="60.1218" y2="-6.0198" width="0.1524" layer="16"/>
+<wire x1="114.681" y1="0.4572" x2="108.204" y2="-6.0198" width="0.1524" layer="16"/>
+<wire x1="122.8344" y1="0.4572" x2="114.681" y2="0.4572" width="0.1524" layer="16"/>
+<wire x1="125.349" y1="2.9718" x2="122.8344" y2="0.4572" width="0.1524" layer="16"/>
+<wire x1="127.1778" y1="2.9718" x2="125.349" y2="2.9718" width="0.1524" layer="16"/>
+<wire x1="127.635" y1="3.429" x2="127.1778" y2="2.9718" width="0.1524" layer="16"/>
+<wire x1="163.3728" y1="3.429" x2="127.635" y2="3.429" width="0.1524" layer="16"/>
+<wire x1="163.9824" y1="3.429" x2="163.3728" y2="3.429" width="0.1524" layer="1"/>
+<wire x1="174.8028" y1="-7.3914" x2="163.9824" y2="3.429" width="0.1524" layer="1"/>
+<wire x1="12.3444" y1="33.4518" x2="12.3190625" y2="33.51191875" width="0.1524" layer="1"/>
+<wire x1="174.8028" y1="-7.3914" x2="174.8536" y2="-7.4041" width="0.1524" layer="1"/>
+<via x="22.3266" y="17.6022" extent="1-16" drill="0.35"/>
+<via x="163.3728" y="3.429" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="N$43">
+<contactref element="PI-CON-1" pad="8"/>
+<contactref element="RS485" pad="1"/>
+<contactref element="R2" pad="P$2"/>
+<wire x1="18.7452" y1="36.0426" x2="14.9352" y2="36.0426" width="0.1524" layer="16"/>
+<wire x1="18.7452" y1="22.098" x2="18.7452" y2="36.0426" width="0.1524" layer="1"/>
+<wire x1="23.5458" y1="17.2974" x2="18.7452" y2="22.098" width="0.1524" layer="1"/>
+<wire x1="23.5458" y1="11.049" x2="23.5458" y2="17.2974" width="0.1524" layer="1"/>
+<wire x1="23.5458" y1="8.763" x2="23.5458" y2="11.049" width="0.1524" layer="16"/>
+<wire x1="23.241" y1="8.4582" x2="23.5458" y2="8.763" width="0.1524" layer="16"/>
+<wire x1="23.241" y1="7.5438" x2="23.241" y2="8.4582" width="0.1524" layer="16"/>
+<wire x1="35.9664" y1="-5.1816" x2="35.41395" y2="-4.62915" width="0.1524" layer="16"/>
+<wire x1="35.2425" y1="-4.4577" x2="23.241" y2="7.5438" width="0.1524" layer="16"/>
+<wire x1="58.8264" y1="-5.1816" x2="35.9664" y2="-5.1816" width="0.1524" layer="16"/>
+<wire x1="60.579" y1="-6.9342" x2="58.8264" y2="-5.1816" width="0.1524" layer="16"/>
+<wire x1="92.8878" y1="-6.9342" x2="60.579" y2="-6.9342" width="0.1524" layer="16"/>
+<wire x1="109.5756" y1="-6.9342" x2="92.8878" y2="-6.9342" width="0.1524" layer="1"/>
+<wire x1="116.967" y1="0.4572" x2="109.5756" y2="-6.9342" width="0.1524" layer="1"/>
+<wire x1="143.1036" y1="0.4572" x2="116.967" y2="0.4572" width="0.1524" layer="1"/>
+<wire x1="156.8196" y1="0.4572" x2="143.1036" y2="0.4572" width="0.1524" layer="16"/>
+<wire x1="164.6682" y1="-7.3914" x2="156.8196" y2="0.4572" width="0.1524" layer="1"/>
+<wire x1="164.6682" y1="-7.3914" x2="164.6936" y2="-7.4041" width="0.1524" layer="1"/>
+<via x="18.7452" y="36.0426" extent="1-16" drill="0.35"/>
+<via x="23.5458" y="11.049" extent="1-16" drill="0.35"/>
+<via x="92.8878" y="-6.9342" extent="1-16" drill="0.35"/>
+<via x="143.1036" y="0.4572" extent="1-16" drill="0.35"/>
+<via x="156.8196" y="0.4572" extent="1-16" drill="0.35"/>
+<wire x1="35.2425" y1="-2.4638" x2="35.2425" y2="-4.4577" width="0.1524" layer="16"/>
+<wire x1="35.2425" y1="-4.4577" x2="35.41395" y2="-4.62915" width="0.1524" layer="16"/>
+<wire x1="14.9352" y1="36.0426" x2="14.8590625" y2="36.05191875" width="0" layer="19" extent="16-16"/>
+</signal>
+<signal name="N$44">
+<contactref element="PI-CON-1" pad="10"/>
+<wire x1="13.9446" y1="33.4518" x2="14.859" y2="33.4518" width="0.1524" layer="16"/>
+<wire x1="12.6492" y1="32.1564" x2="13.9446" y2="33.4518" width="0.1524" layer="16"/>
+<wire x1="12.0523" y1="32.1564" x2="12.6492" y2="32.1564" width="0.1524" layer="16"/>
+<wire x1="8.6487" y1="28.7528" x2="12.0523" y2="32.1564" width="0.1524" layer="16"/>
+<wire x1="7.9248" y1="-4.191" x2="8.6995" y2="-3.4163" width="0.1524" layer="1"/>
+<wire x1="8.6995" y1="28.702" x2="8.6995" y2="-3.4163" width="0.1524" layer="1"/>
+<wire x1="8.6995" y1="28.702" x2="8.6487" y2="28.7528" width="0.1524" layer="1"/>
+<wire x1="8.382" y1="-4.191" x2="7.9248" y2="-4.191" width="0.1524" layer="16"/>
+<wire x1="21.7932" y1="-17.6022" x2="8.382" y2="-4.191" width="0.1524" layer="16"/>
+<wire x1="72.6948" y1="-17.6022" x2="21.7932" y2="-17.6022" width="0.1524" layer="16"/>
+<wire x1="73.7616" y1="-18.669" x2="72.6948" y2="-17.6022" width="0.1524" layer="16"/>
+<wire x1="100.1268" y1="-18.669" x2="73.7616" y2="-18.669" width="0.1524" layer="16"/>
+<wire x1="116.7384" y1="-2.0574" x2="100.1268" y2="-18.669" width="0.1524" layer="1"/>
+<wire x1="121.4628" y1="-2.0574" x2="116.7384" y2="-2.0574" width="0.1524" layer="1"/>
+<wire x1="122.9868" y1="-0.5334" x2="121.4628" y2="-2.0574" width="0.1524" layer="16"/>
+<wire x1="123.2916" y1="-0.5334" x2="122.9868" y2="-0.5334" width="0.1524" layer="16"/>
+<wire x1="123.6726" y1="-0.1524" x2="123.2916" y2="-0.5334" width="0.1524" layer="16"/>
+<wire x1="162.5346" y1="-0.1524" x2="123.6726" y2="-0.1524" width="0.1524" layer="16"/>
+<wire x1="169.7736" y1="-7.3914" x2="162.5346" y2="-0.1524" width="0.1524" layer="1"/>
+<wire x1="14.859" y1="33.4518" x2="14.8590625" y2="33.51191875" width="0.1524" layer="16"/>
+<via x="8.6487" y="28.7528" extent="1-16" drill="0.35"/>
+<via x="7.9248" y="-4.191" extent="1-16" drill="0.35"/>
+<via x="100.1268" y="-18.669" extent="1-16" drill="0.35"/>
+<via x="121.4628" y="-2.0574" extent="1-16" drill="0.35"/>
+<via x="162.5346" y="-0.1524" extent="1-16" drill="0.35"/>
+<contactref element="R3" pad="P$2"/>
+<contactref element="RS485" pad="2"/>
+<wire x1="1.3081" y1="0.9906" x2="2.7432" y2="0.9906" width="0.1524" layer="1"/>
+<wire x1="2.7432" y1="0.9906" x2="7.9248" y2="-4.191" width="0.1524" layer="1"/>
+<wire x1="169.7736" y1="-7.3914" x2="169.7736" y2="-7.4041" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="N$40">
+<contactref element="PI-CON-1" pad="30"/>
+<contactref element="R3" pad="P$1"/>
+<wire x1="1.3081" y1="8.6106" x2="4.0386" y2="11.3411" width="0.1524" layer="1"/>
+<wire x1="4.0386" y1="11.3411" x2="7.9502" y2="11.3411" width="0.1524" layer="1"/>
+<via x="7.9502" y="11.3411" extent="1-16" drill="0.35"/>
+<wire x1="11.83509375" y1="6.94351875" x2="7.9502" y2="10.8284125" width="0.1524" layer="16"/>
+<wire x1="7.9502" y1="11.3411" x2="7.9502" y2="10.8284125" width="0.1524" layer="16"/>
+<wire x1="11.83509375" y1="6.94351875" x2="12.80303125" y2="6.94351875" width="0.1524" layer="16"/>
+<wire x1="13.97143125" y1="8.11191875" x2="14.8590625" y2="8.11191875" width="0.1524" layer="16"/>
+<wire x1="12.80303125" y1="6.94351875" x2="13.97143125" y2="8.11191875" width="0.1524" layer="16"/>
+</signal>
 </signals>
 <mfgpreviewcolors>
 <mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
@@ -7149,12 +7371,6 @@ design rules under a new name.
 <approved hash="22,20,e0d420d40074c074"/>
 <approved hash="22,20,b215f21512b552b5"/>
 <approved hash="22,20,1d045d047c243c24"/>
-<approved hash="21,19,b8bcb8bab6beb4be"/>
-<approved hash="21,19,deabdca9dca9deab"/>
-<approved hash="21,19,2d4a234823482d4a"/>
-<approved hash="4,16,2926672babab989f"/>
-<approved hash="4,16,89e24f454f58daf8"/>
-<approved hash="4,16,7382a86973c5d12b"/>
 </errors>
 </board>
 </drawing>
